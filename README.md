@@ -2,7 +2,7 @@
 Since package 'cvalues' uses over 30 other R packages its is suggested installing by using next command:
  
 
-     install.packages('package_version_file_gz',dependencies = TRUE)
+     devtools::install_github("dchristop/cvalues", dependencies=TRUE)
 
  
 ###Data available
