@@ -1,0 +1,27 @@
+Package: cvalues
+Version: 0.0.0.9002
+Title: Read, Analyze and Visualize World Values Surveys Data
+Description: Read World Values Survey Data in R, SPSS, STATA Format and Visualize Them.
+Authors@R: c(
+             person("Demetris", "Christopoulos", email = "dem.christop@gmail.com", role = c("aut", "cre")),
+             person("David", "Midgley", email = "david.midgley@insead.edu", role = c("ctb", "cph")),
+             person("INSEAD Fontainebleau France", role = c("fnd", "cph"))
+             )  
+Maintainer: Demetris Christopoulos <dchristop@econ.uoa.gr>
+Depends: R (>= 3.1.0)
+Imports: DescTools, RColorBrewer, classInt,
+        countrycode,doParallel,foreach, foreign, iterators,knitr,
+        lattice, magick,maps, matlib, methods, mice, openxlsx,plot3D,
+        plot3Drgl, plotGoogleMaps, plotKML, plotrix, readstata13,
+        readxl, rgl, rmarkdown, rnaturalearth, robCompositions,
+        rworldmap, smacof, sp, tibble
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-02-17 11:25:30 UTC; demetris_ws
+Author: Demetris Christopoulos [aut, cre],
+  David Midgley [ctb, cph],
+  INSEAD Fontainebleau France [fnd, cph]
